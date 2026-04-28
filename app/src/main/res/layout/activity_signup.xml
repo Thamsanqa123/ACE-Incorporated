@@ -1,0 +1,93 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark">
+
+    <!--  BACKGROUND LOGO -->
+    <ImageView
+        android:src="@drawable/ace_logo"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_gravity="center"
+        android:alpha="0.07"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true" />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- TITLE -->
+        <TextView
+            android:text="Create Account"
+            android:textColor="@color/text_white"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.05"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- SUBTEXT -->
+        <TextView
+            android:text="Start controlling your money today"
+            android:textColor="@color/text_fade"
+            android:textSize="14sp"
+            android:layout_marginTop="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- EMAIL -->
+        <EditText
+            android:id="@+id/email"
+            android:hint="Email Address"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/text_white"
+            android:textColorHint="@color/text_fade"
+            android:backgroundTint="@color/purple_light"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- USERNAME -->
+        <EditText
+            android:id="@+id/newUsername"
+            android:hint="Username"
+            android:textColor="@color/text_white"
+            android:textColorHint="@color/text_fade"
+            android:backgroundTint="@color/purple_light"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- PASSWORD -->
+        <EditText
+            android:id="@+id/newPassword"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@color/text_white"
+            android:textColorHint="@color/text_fade"
+            android:backgroundTint="@color/purple_light"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- BUTTON -->
+        <Button
+            android:id="@+id/createAccountBtn"
+            android:text="Create Account"
+            android:textAllCaps="false"
+            android:background="@drawable/glass_button"
+            android:textColor="@color/text_white"
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</FrameLayout>

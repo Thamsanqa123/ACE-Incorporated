@@ -1,0 +1,58 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/bg_dark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background Logo -->
+    <ImageView
+        android:src="@drawable/ace_logo"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_gravity="center"
+        android:alpha="0.05"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:src="@drawable/ace_logo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"/>
+
+        <TextView
+            android:text="Ace Incorporated"
+            android:textStyle="bold"
+            android:textColor="@color/purple_light"
+            android:textSize="26sp"
+            android:layout_marginTop="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="The smartest South African budget app made for managing your money. Built with unique features to help everyone budget, save and spend smarter."
+            android:textColor="@color/text_fade"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/startBtn"
+            android:text="Get Started"
+            android:textAllCaps="false"
+            android:background="@drawable/glass_button"
+            android:textColor="@color/text_white"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</FrameLayout>
