@@ -2,8 +2,6 @@
 ## Repo link: https://github.com/Thamsanqa123/ACE-Incorporated
 ## demostration video: https://youtu.be/OkRit3oFyoQ?si=mM6hxAdka3PMLCKI
 
-#  ACEinc Expense Tracker App
-
 ##  Overview
 
 ACEinc is a mobile expense tracking application built using **Kotlin** and **SQLite** in Android Studio.
